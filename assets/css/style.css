@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+
+.banner-area{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/banner.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center 30%;
+}
+
+h2,h1{
+    color: #ba2a2a;
+    font-weight: 700;
+    font-family: Noto Serif;
+    line-height: 38px;
+    font-size: 44px !important; 
+}
+
+p{
+    color: #333;
+    font-size: 1.4rem;
+}
+
+/*Header*/
+header{
+    background: white;
+    color: #ba2a2a;;
+}
+
+/*Nav*/
+.vertical-link {
+    border-left: 1px solid #D5D3DA;
+}
+
+.navigation ul li a{
+    transition: all 0.2s linear;
+    border-radius: 5px;
+    font-family: Noto Serif;
+    border-bottom: 4px solid transparent;
+}
+
+.navigation ul li a:hover{
+    border-bottom-color: red;
+}
+
+
+/*Quien soy*/
+.outline img{
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 0.125rem;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #ffffff, #ff6c6c);
+}
+
+.outline-img {
+    width: 100%;
+    border-radius: 50%;
+    border: 0.25rem solid rgb(255, 222, 222);;
+}
+#quiensoy a:hover {
+    text-decoration: underline;
+}
+#quiensoy img{
+    width: 200px;
+    height: 200px;
+}
+
+
+#quiensoy a {
+    color: #3d3d3d;
+    text-decoration: none;
+    font-size: 25px;
+}
+/*Areas de practica*/
+.areas_items p{
+    border-bottom: 1px solid red
+}
+
+/*Clientes*/
+#clientes{
+    background-color: rgba(255, 7, 7, 0.671)!important;
+}
+
+#clientes h2{
+    color: #333;
+}
+
+/*Ubicacion y contacto*/
+#ubicacionycontacto ul li i{
+    margin-right: 5px;
+}
+
+/*Whatsapp*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:red;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: red;
+    background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+@media (max-width: 998.98px){ 
+    .vertical-link {
+        border-left: none;
+    }
+}
