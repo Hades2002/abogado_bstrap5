@@ -47,26 +47,12 @@ header{
 }
 
 
-/*Quien soy*/
-.outline img{
-    width: 4.5rem;
-    height: 4.5rem;
-    padding: 0.125rem;
-    border-radius: 50%;
-    background: linear-gradient(45deg, #ffffff, #ffffff);
-}
-
-.outline-img {
-    width: 100%;
-    border-radius: 50%;
-    border: 0.25rem solid rgba(219, 219, 219, 0.889);;
-}
 #quiensoy a:hover {
     text-decoration: underline;
 }
 #quiensoy img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: auto;
 }
 
 
